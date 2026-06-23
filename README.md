@@ -1,6 +1,6 @@
 # Tiny Superwhisper Agent
 
-An Apple Shortcut plus a Superwhisper custom prompt that turns one dictation flow into a tiny action router.
+An Apple Shortcut that turns Superwhisper into a tiny agent for routing dictation to clipboard, text post-processing, TickTick, Notion, and more.
 
 ## What It Does
 
