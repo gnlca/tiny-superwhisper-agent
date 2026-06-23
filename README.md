@@ -27,7 +27,7 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
 
 2. **Install the Apple Shortcut**
 
-   Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut).
+   Download [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut) and open it with the Apple Shortcuts app on iPhone.
 
    The first Superwhisper action is already configured to call the custom mode named `tiny-superwhisper-agent`.
 
