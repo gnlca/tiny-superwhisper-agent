@@ -38,17 +38,6 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
 
    Delete the TickTick or Notion branch if you do not use that app.
 
-## Will It Work For Everyone?
-
-It should work after setup, but it is not fully plug-and-play:
-
-- users must have Superwhisper installed;
-- users must create the custom mode with the exact name `tiny-superwhisper-agent`;
-- TickTick and Notion actions must be connected to each user's own account, list, workspace, and database;
-- app actions can vary slightly across app versions, so users should open the shortcut once and confirm every app-specific block.
-
-The generic clipboard routes (`passthrough` and `processed`) should work once the Superwhisper mode is configured.
-
 ## Extending It
 
 This is a router pattern. To add more actions, add a new JSON `type` to the Superwhisper prompt and a matching `If` branch in Shortcuts.
