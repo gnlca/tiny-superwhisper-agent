@@ -23,6 +23,8 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
 
    ![Superwhisper custom mode settings](assets/sw-config.png)
 
+   (Sonnet 4.6 worked well for me, but may be overkill. Use any voice/LLM model you prefer.)
+
 2. **Install the Apple Shortcut**
 
    Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut).
