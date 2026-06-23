@@ -27,7 +27,6 @@ The Superwhisper action is already configured to call `tiny-superwhisper-agent`.
 
 - `add task buy milk tomorrow at 9`
 - `save this note to Notion: the launch checklist needs a rollback step`
-- `don't format hello world`
 
 ## Extending Routes
 
