@@ -38,17 +38,11 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
    - TickTick list/project
    - Notion workspace/database
 
-   Delete the TickTick or Notion branch if you do not use that app.
-
 ## Extending It
 
 This is a router pattern. To add more actions, add a new JSON `type` to the Superwhisper prompt and a matching `If` branch in Shortcuts.
 
 Examples: append to Apple Notes, send a Slack message, create a calendar event, save to a file, call a webhook, or trigger a home automation.
-
-## Note About Notion
-
-The native Notion Shortcuts action inserts page body content as plain text. It does not render Markdown into native Notion blocks.
 
 ## License
 
