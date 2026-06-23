@@ -1,8 +1,10 @@
 # Setup
 
+Install and sign in to Superwhisper first. TickTick and Notion are needed only for their respective actions.
+
 ## Superwhisper
 
-Create a custom mode and paste `docs/superwhisper-custom-prompt.md` into Custom Instructions. Remember the exact custom mode name.
+Create a custom mode named exactly `tiny-superwhisper-agent`, then paste `docs/superwhisper-custom-prompt.md` into Custom Instructions.
 
 Suggested settings:
 
@@ -16,11 +18,10 @@ Suggested settings:
 
 Import `shortcuts/tiny-superwhisper-agent.shortcut`, then configure the app-specific actions:
 
-- Superwhisper: choose the exact custom mode that uses this prompt.
-- TickTick: choose your target list/project, or delete the `add_task` branch.
-- Notion: choose your workspace/database, or delete the `add_notion_page` branch.
+- TickTick: choose your target list/project.
+- Notion: choose your workspace/database.
 
-The Superwhisper action in the shortcut must point to the custom mode that uses this prompt. If it points to a different mode, the shortcut will not receive the expected JSON shape.
+The Superwhisper action is already configured to call `tiny-superwhisper-agent`.
 
 ## Test Dictations
 
@@ -31,7 +32,3 @@ The Superwhisper action in the shortcut must point to the custom mode that uses 
 ## Extending Routes
 
 The included shortcut currently supports simple dictation, AI post-processing, TickTick task creation, and Notion page creation. You can extend it by adding another `type` to the prompt and another conditional branch in Shortcuts.
-
-## Notion Body Formatting
-
-The native Notion Shortcuts action inserts body text as plain text. It does not parse Markdown into Notion blocks. For real headings, bullets, and code blocks, use the Notion API instead of the native Shortcuts action.

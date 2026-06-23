@@ -11,14 +11,13 @@ Before publishing a modified shortcut export, inspect it for:
 - private Superwhisper mode names
 - API keys or bearer tokens
 
-Useful local checks:
+Useful local check if you have an unsigned JSON export:
 
 ```sh
-plutil -convert json -o shortcut.json tiny-superwhisper-agent.shortcut
 rg -i "notion|ticktick|workspace|database|user|token|bearer|secret|your-name|your-email" shortcut.json
 ```
 
-For binary shortcut exports, also run:
+For signed shortcut exports, also run a string scan:
 
 ```sh
 strings tiny-superwhisper-agent.shortcut | rg -i "notion|ticktick|token|bearer|secret"

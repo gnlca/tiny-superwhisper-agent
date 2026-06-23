@@ -29,6 +29,6 @@ Fields:
 For `add_notion_page`, `data` contains:
 
 - `title`: Notion page title.
-- `body`: plain text body. The native Notion Shortcuts action does not render Markdown.
+- `body`: page body with summary, details, and transcript.
 
 To extend the agent, add a new `type` shape to the prompt schema and add a matching branch in Apple Shortcuts.

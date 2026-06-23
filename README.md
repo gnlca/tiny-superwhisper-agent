@@ -18,6 +18,8 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
 
 ## Setup In 3 Steps
 
+Install and sign in to Superwhisper first. TickTick and Notion are needed only for their respective actions.
+
 1. **Create the Superwhisper custom mode**
 
    Create a custom mode named exactly `tiny-superwhisper-agent`, then paste the prompt from [`docs/superwhisper-custom-prompt.md`](docs/superwhisper-custom-prompt.md).
