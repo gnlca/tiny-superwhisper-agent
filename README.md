@@ -22,7 +22,7 @@ Install and sign in to Superwhisper first. TickTick and Notion are needed only f
 
 1. **Create the Superwhisper custom mode**
 
-   Create a custom mode named exactly `tiny-superwhisper-agent`, then paste the prompt from [`docs/superwhisper-custom-prompt.md`](docs/superwhisper-custom-prompt.md).
+   Create a custom mode named exactly `tiny-superwhisper-agent`, then paste the prompt from [`superwhisper-custom-prompt.md`](superwhisper-custom-prompt.md).
 
    Use settings like these:
 
@@ -32,7 +32,7 @@ Install and sign in to Superwhisper first. TickTick and Notion are needed only f
 
 2. **Install the Apple Shortcut**
 
-   Download [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut) and open it with the Apple Shortcuts app on iPhone.
+   Download [`tiny-superwhisper-agent.shortcut`](tiny-superwhisper-agent.shortcut) and open it with the Apple Shortcuts app on iPhone.
 
    The first Superwhisper action is already configured to call the custom mode named `tiny-superwhisper-agent`.
 

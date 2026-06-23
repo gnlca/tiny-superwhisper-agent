@@ -4,7 +4,7 @@ Install and sign in to Superwhisper first. TickTick and Notion are needed only f
 
 ## Superwhisper
 
-Create a custom mode named exactly `tiny-superwhisper-agent`, then paste `docs/superwhisper-custom-prompt.md` into Custom Instructions.
+Create a custom mode named exactly `tiny-superwhisper-agent`, then paste `superwhisper-custom-prompt.md` into Custom Instructions.
 
 Suggested settings:
 
@@ -16,7 +16,7 @@ Suggested settings:
 
 ## Apple Shortcuts
 
-Import `shortcuts/tiny-superwhisper-agent.shortcut`, then configure the app-specific actions:
+Import `tiny-superwhisper-agent.shortcut`, then configure the app-specific actions:
 
 - TickTick: choose your target list/project.
 - Notion: choose your workspace/database.
