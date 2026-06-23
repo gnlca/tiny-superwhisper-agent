@@ -11,7 +11,7 @@ The shortcut is intentionally generic. It contains no personal Notion workspace,
 
 ## Install
 
-1. Import [`shortcuts/Tiny-Superwhisper-Agent.shortcut`](shortcuts/Tiny-Superwhisper-Agent.shortcut).
+1. Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut).
 2. In Superwhisper, create a custom mode and paste [`docs/superwhisper-custom-prompt.md`](docs/superwhisper-custom-prompt.md).
 3. In Shortcuts, open the imported shortcut and select your own:
    - Superwhisper custom mode

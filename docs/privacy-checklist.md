@@ -14,12 +14,12 @@ Before publishing a modified shortcut export, inspect it for:
 Useful local checks:
 
 ```sh
-plutil -convert json -o shortcut.json Superwhisper-Agent-Template.shortcut
+plutil -convert json -o shortcut.json tiny-superwhisper-agent.shortcut
 rg -i "notion|ticktick|workspace|database|user|token|bearer|secret|your-name|your-email" shortcut.json
 ```
 
 For binary shortcut exports, also run:
 
 ```sh
-strings Tiny-Superwhisper-Agent.shortcut | rg -i "notion|ticktick|token|bearer|secret"
+strings tiny-superwhisper-agent.shortcut | rg -i "notion|ticktick|token|bearer|secret"
 ```

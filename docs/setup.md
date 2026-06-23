@@ -14,7 +14,7 @@ Suggested settings:
 
 ## Apple Shortcuts
 
-Import `shortcuts/Tiny-Superwhisper-Agent.shortcut`, then configure the app-specific actions:
+Import `shortcuts/tiny-superwhisper-agent.shortcut`, then configure the app-specific actions:
 
 - Superwhisper: choose your custom mode.
 - TickTick: choose your target list/project, or delete the `add_task` branch.
