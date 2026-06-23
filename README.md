@@ -1,7 +1,8 @@
-<h1>
-  <img src="assets/shortcut-icon.png" alt="Tiny Superwhisper Agent icon" width="40">
-  Tiny Superwhisper Agent
-</h1>
+<p align="left">
+  <img src="assets/shortcut-icon.png" alt="Tiny Superwhisper Agent icon" width="72">
+</p>
+
+# Tiny Superwhisper Agent
 
 An Apple Shortcut that turns Superwhisper into a tiny agent for routing dictation to clipboard, text post-processing, TickTick, Notion, and more.
 
