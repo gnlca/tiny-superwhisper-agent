@@ -26,6 +26,10 @@ Import `shortcuts/Tiny-Superwhisper-Agent.shortcut`, then configure the app-spec
 - `save this note to Notion: the launch checklist needs a rollback step`
 - `don't format hello world`
 
+## Extending Routes
+
+The included shortcut currently supports simple dictation, AI post-processing, TickTick task creation, and Notion page creation. You can extend it by adding another `type` to the prompt and another conditional branch in Shortcuts.
+
 ## Notion Body Formatting
 
 The native Notion Shortcuts action inserts body text as plain text. It does not parse Markdown into Notion blocks. For real headings, bullets, and code blocks, use the Notion API instead of the native Shortcuts action.
