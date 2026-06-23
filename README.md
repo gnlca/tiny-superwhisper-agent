@@ -24,7 +24,7 @@ The shortcut is generic: it contains no personal Notion database, TickTick list,
 
    Use settings like these:
 
-   ![Superwhisper custom mode settings](assets/sw-config.png)
+   <img src="assets/sw-config.png" alt="Superwhisper custom mode settings" width="320">
 
    (Sonnet 4.6 worked well for me, but may be overkill. Use any voice/LLM model you prefer.)
 
