@@ -2,7 +2,7 @@
 
 ## Superwhisper
 
-Create a custom mode and paste `docs/superwhisper-custom-prompt.md` into Custom Instructions.
+Create a custom mode and paste `docs/superwhisper-custom-prompt.md` into Custom Instructions. Remember the exact custom mode name.
 
 Suggested settings:
 
@@ -16,9 +16,11 @@ Suggested settings:
 
 Import `shortcuts/tiny-superwhisper-agent.shortcut`, then configure the app-specific actions:
 
-- Superwhisper: choose your custom mode.
+- Superwhisper: choose the exact custom mode that uses this prompt.
 - TickTick: choose your target list/project, or delete the `add_task` branch.
 - Notion: choose your workspace/database, or delete the `add_notion_page` branch.
+
+The Superwhisper action in the shortcut must point to the custom mode that uses this prompt. If it points to a different mode, the shortcut will not receive the expected JSON shape.
 
 ## Test Dictations
 

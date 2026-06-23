@@ -14,9 +14,11 @@ The shortcut is intentionally generic. It contains no personal Notion workspace,
 1. Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut).
 2. In Superwhisper, create a custom mode and paste [`docs/superwhisper-custom-prompt.md`](docs/superwhisper-custom-prompt.md).
 3. In Shortcuts, open the imported shortcut and select your own:
-   - Superwhisper custom mode
+   - Superwhisper custom mode using that exact prompt
    - TickTick list/project
    - Notion workspace and database
+
+Make sure the Superwhisper action inside the shortcut points to the same custom mode where you pasted this prompt. If it points to another mode, the shortcut will receive the wrong output format.
 
 Suggested Superwhisper settings:
 
