@@ -14,8 +14,6 @@ Superwhisper returns a JSON object, and the shortcut routes it into one of four 
 - `add_task`: create a TickTick task with smart date/time formatting
 - `add_notion_page`: create a Notion page with summary, details, and transcript
 
-The shortcut is generic: it contains no personal Notion database, TickTick list, account ID, API token, or private iCloud link.
-
 ## Setup In 3 Steps
 
 Install and sign in to Superwhisper first. TickTick and Notion are needed only for their respective actions.
@@ -35,6 +33,8 @@ Install and sign in to Superwhisper first. TickTick and Notion are needed only f
    Download [`tiny-superwhisper-agent.shortcut`](tiny-superwhisper-agent.shortcut) and open it with the Apple Shortcuts app on iPhone.
 
    The first Superwhisper action is already configured to call the custom mode named `tiny-superwhisper-agent`.
+
+   If your iPhone has an Action Button, map it to this shortcut. Press once to start talking to the agent, then press again to stop and run the action.
 
 3. **Configure TickTick and Notion**
 
