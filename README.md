@@ -8,8 +8,8 @@ Superwhisper returns a JSON object, and the shortcut routes it into one of four 
 
 - `passthrough`: clean dictation and copy it to the clipboard
 - `processed`: run AI post-processing and copy the result to the clipboard
-- `add_task`: create a TickTick task
-- `add_notion_page`: create a Notion page
+- `add_task`: create a TickTick task with smart date/time formatting
+- `add_notion_page`: create a Notion page with summary, details, and transcript
 
 The shortcut is generic: it contains no personal Notion database, TickTick list, account ID, API token, or private iCloud link.
 
