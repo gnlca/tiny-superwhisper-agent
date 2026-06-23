@@ -9,6 +9,17 @@ A small Apple Shortcut plus Superwhisper custom prompt that routes dictation int
 
 The shortcut is intentionally generic. It contains no personal Notion workspace, Notion database, TickTick list, API token, or account ID.
 
+## Quick Install
+
+1. Open Superwhisper and create a custom mode named `tiny-superwhisper-agent` with the settings shown below.
+
+   ![Superwhisper custom mode settings](assets/sw-config.png)
+
+2. Paste the custom instructions from [`docs/superwhisper-custom-prompt.md`](docs/superwhisper-custom-prompt.md).
+3. Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut) in Apple Shortcuts.
+4. In the first Superwhisper action, make sure the selected custom mode is `tiny-superwhisper-agent`. The shortcut is already configured with this mode name, but you should still verify it after importing.
+5. Configure the remaining app actions, such as your TickTick list/project and Notion workspace/database.
+
 ## Install
 
 1. Import [`shortcuts/tiny-superwhisper-agent.shortcut`](shortcuts/tiny-superwhisper-agent.shortcut).
